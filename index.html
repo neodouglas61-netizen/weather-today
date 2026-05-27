@@ -4,7 +4,6 @@
 <head>
 
 <title>Weather Today</title>
-
 <link rel="stylesheet" href="style.css">
 
 </head>
@@ -17,13 +16,17 @@
 
 <p>Search your city's weather forecast.</p>
 
-<input type="text" placeholder="Enter city">
+<input id="city" type="text" placeholder="Enter city">
 
 <br><br>
 
-<button>Search</button>
+<button onclick="getWeather()">Search</button>
+
+<div id="weather"></div>
 
 </div>
+
+<script src="script.js"></script>
 
 </body>
 
